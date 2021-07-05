@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: rgb(5, 0, 22);
+}
+
+h1 {
+    color: rgb(253, 237, 4);
+    font-size: 4rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+header, form {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    border: none;
+}
+
+.input-button {
+    color: rgb(253, 237, 4);
+    cursor: pointer;
+    font-size: 3rem;
+    transition: all 0.3 ease;
+    padding: 0.7rem;
+}
+
+.input-button:hover {
+    color: rgb(0, 241, 32);
+}
+
+.input-todo {
+    background-color: rgb(252, 208, 155);
+    font-size: 1.3rem;
+    height: 2rem;
+    width: 20rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+select {
+    background-color: rgb(253, 237, 4);
+    color: rgb(10, 1, 41);
+    font-size: 1.2rem;
+    width: 10.2rem;
+    padding: 0.5rem;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 208, 155);
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.complete-btn, .trash-btn {
+    color: rgb(253, 237, 4);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.3 ease;
+    margin: 1rem;
+    border: none;
+}
+
+.complete-btn:hover {
+    color: rgb(0, 241, 32);
+}
+
+.trash-btn:hover {
+    color: rgb(238, 2, 2);
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
+/* 
+    colors:
+rgb(253, 237, 4) 
+rgb(10, 1, 41)
+rgb(252, 208, 155)
+rgb(0, 241, 32)
+rgb(238, 2, 2)
+fonts:
+"Body" : 'Josefin Sans', sans-serif
+Title : 'Nunito', sans-serif
+*/
